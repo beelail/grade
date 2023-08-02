@@ -1,0 +1,103 @@
+body{
+    background-color:#dbd4d4;
+    -webkit-print-color-adjust:exact; 
+    print-color-adjust: exact;
+    }
+
+
+    .aboutus{
+        color: #000;
+        text-decoration: none;
+        position: absolute;
+        top:20px ;   
+        right:10%;
+        font-style:italic; 
+        font-weight: 800;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+a{
+    position: fixed;
+    top:17px;
+    margin-left: 90px ;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:900;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+b{ margin-left: 15px; }
+.cantact{
+  color: #000;
+  position:fixed;
+  top:20px;
+  left:1250pt;
+  font-style:italic; 
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{display: none;}
+.cantact:hover .content{display: block;}
+
+.footer {
+   
+   position:fixed;
+   bottom: 0%;
+    width: 100%;
+    text-align: center;
+   
+  }
+  
+  .p{
+    position: absolute;
+    top: 90px;
+    left:838px;
+    background-color: transparent;
+    border: none;
+   color: rgb(89, 89, 107);
+   font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+   display: flex;
+   cursor: pointer;
+ 
+  
+  }
+  .o{
+    margin-right: 20px;
+  }
+
+
+  table{
+    border: none;
+    position: relative;
+    top:200px;
+    padding-bottom: 50px;
+  }
+  table th {
+    background-color: rgb(132, 157, 207);
+    color: #fff;
+    text-align: left;
+    height: 25px;  
+    text-align: center;
+    border-radius:5px ;
+  }
+  td {
+    width:400px;
+    height: 50px;
+    vertical-align: bottom;
+    text-align: center;
+    background-color: rgb(187, 168, 168);
+    border-radius: 5px;
+  }
+
+
+  .info{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 100;
+  }
